@@ -10,7 +10,6 @@ import {
 import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 
-import IntlMessages from "../../helpers/IntlMessages";
 import {
   setContainerClassnames,
   clickOnMobileMenu,
@@ -244,13 +243,6 @@ class TopNav extends Component {
             </UncontrolledDropdown>
           </div>
           <div className="position-relative d-none d-none d-lg-inline-block">
-            <a
-              className="btn btn-outline-primary btn-sm ml-2"
-              target="_top"
-              href="https://kasta.team"
-            >
-              <IntlMessages id="user.apply" />
-            </a>
           </div>
         </div>
         <a className="navbar-logo" href="/">
